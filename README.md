@@ -3,7 +3,8 @@
 > *A personal health-record management platform that organizes scattered medical reports into a chronological, understandable health journey.*
 <img width="1366" height="768" alt="WhatsApp Image 2026-10-06 at 12 57 30 AM" src="https://github.com/user-attachments/assets/ce8829ec-6ea5-4872-b550-4f9c76e46dcd" />
 <img width="1366" height="768" alt="WhatsApp Image 2026-10-06 at 12 57 06 AM (1)" src="https://github.com/user-attachments/assets/903ba866-2f83-42a4-acfc-908fbe8cc2e4" />
-<img width="1366" height="768" alt="WhatsApp Image 2026-10-06 at 12 57 06 AM (1)" src="https://github.com/user-attachments/assets/231db940-9497-4297-8bae-8df79bc1628c" />
+<img width="1366" height="768" alt="WhatsApp Image 2026-10-06 at 12 56 53 AM" src="https://github.com/user-attachments/assets/59fe8598-76e1-47ab-8306-fea33241e6de" />
+
 
 ---
 
