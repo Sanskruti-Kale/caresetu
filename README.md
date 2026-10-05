@@ -1,26 +1,29 @@
-﻿# 🏥 CareSetu 
+﻿# CareSetu 
 > **“Aapki Sehat, Aapki Kahani.”**  
 > *A personal health-record management platform that organizes scattered medical reports into a chronological, understandable health journey.*
+<img width="1366" height="768" alt="WhatsApp Image 2026-10-06 at 12 57 30 AM" src="https://github.com/user-attachments/assets/ce8829ec-6ea5-4872-b550-4f9c76e46dcd" />
+<img width="1366" height="768" alt="WhatsApp Image 2026-10-06 at 12 57 06 AM (1)" src="https://github.com/user-attachments/assets/903ba866-2f83-42a4-acfc-908fbe8cc2e4" />
+<img width="1366" height="768" alt="WhatsApp Image 2026-10-06 at 12 57 06 AM (1)" src="https://github.com/user-attachments/assets/231db940-9497-4297-8bae-8df79bc1628c" />
 
 ---
 
-## 🌟 Overview & Purpose
+## Overview & Purpose
 **CareSetu** solves the critical problem of fragmented healthcare records in India. Medical prescriptions, lab reports, and imaging tests are routinely scattered across WhatsApp chats, physical paper files, and email attachments. 
 
 CareSetu creates an organized, patient-owned health journey without diagnosing diseases or replacing medical practitioners. All AI features are strictly **assistive** and operate under a **human-in-the-loop** protocol where category suggestions always require user confirmation.
 
 ---
 
-## 🚀 Live Local URLs
+## Live Local URLs
 - **Frontend Web Application:** [http://localhost:5173/](http://localhost:5173/)
 - **Backend REST API:** [http://localhost:5000/api](http://localhost:5000/api)
 - **API Health Check:** [http://localhost:5000/api/health](http://localhost:5000/api/health)
 
 ---
 
-## 🎯 Key Features & Modules
+## Key Features & Modules
 
-### 1. 🤖 AI-Assisted Report Categorization (Strict Human-in-the-Loop)
+### 1. AI-Assisted Report Categorization (Strict Human-in-the-Loop)
 - **File Support:** Accepts PDF, JPG, and PNG documents.
 - **Workflow:**
   1. User selects or drops a medical document (or selects a quick sample test).
@@ -30,7 +33,7 @@ CareSetu creates an organized, patient-owned health journey without diagnosing d
   5. The report and timeline milestone are only committed to the database after explicit user confirmation.
 - **Clinical Safety:** AI is strictly assistive. It never diagnoses diseases or alters prescriptions.
 
-### 2. 🔀 “What Changed?” (Record Comparison Engine)
+### 2. “What Changed?” (Record Comparison Engine)
 - Compares any two selected records (e.g. Previous Consultation vs Recent Prescription).
 - Identifies:
   - **Medications Added** (`+ Rosuvastatin 5mg`)
@@ -39,30 +42,30 @@ CareSetu creates an organized, patient-owned health journey without diagnosing d
   - **Numeric Parameter Deltas** (e.g. Blood Pressure: `138/88 mmHg` → `124/82 mmHg` [Normalized]).
 - Disclaimer: Limited strictly to reliably extracted text. Never claims to interpret all clinical nuances.
 
-### 3. 💊 Duration-Based Medicine Management
+### 3. Duration-Based Medicine Management
 - **Course Duration Auto-Stop:** If a 15-day course is specified, reminder schedules automatically conclude after 15 days.
 - **Today's Schedule:** Quick **Mark as Taken** and **Mark as Missed** actions.
 - **Missed Dose Compliance Log:** Missed doses are logged transparently in history for doctor review. CareSetu never automatically alters prescribed dosages.
 
-### 4. 👶 Family Zone (Children & Dependent Records)
+### 4. Family Zone (Children & Dependent Records)
 - Prioritizes children and elderly dependents without independent smartphones or logins.
 - Managed under legal parental guardianship while keeping dependent health records strictly separated from parent records.
 - **Child Immunization Schedule:** Tracks standard vaccines (BCG, Polio, Hepatitis B, DTP, MMR, Typhoid) with **Given**, **Due Now**, and **Upcoming** status tags.
 
-### 5. 🩺 Doctor Consultation Brief & Consent-Based Sharing
+### 5. Doctor Consultation Brief & Consent-Based Sharing
 - Compiles patient identity, known drug allergies, active medicines, recent lab parameters, and timeline highlights into a clean 1-page summary.
 - **Print / PDF:** Direct printable view for offline clinic visits.
 - **Explicit Consent Sharing:** Generates a secure, temporary 6-character access PIN (e.g. `CARE-9281`) valid for 24 hours.
 - **Instant Revocation:** Patient can revoke doctor access at any second with a single click.
 - **Doctor Verification Portal:** Dedicated tab where consulting doctors enter the PIN to review authorized patient summaries.
 
-### 6. 📚 Educational Report Guide
+### 6.  Educational Report Guide
 - Plain-language educational encyclopedia for common medical reports: ECG, Blood Test (CBC & Lipid), X-Ray, MRI, CT Scan, Ultrasound, and Blood Pressure.
 - Explains what it is, why doctors order it, which specialist uses it, and basic preparation.
 
 ---
 
-## 📂 Project Architecture
+##  Project Architecture
 
 ```
 caresetu/
@@ -140,7 +143,7 @@ caresetu/
 
 ---
 
-## ⚡ How Frontend, Backend, Database and AI/OCR Communicate
+##  How Frontend, Backend, Database and AI/OCR Communicate
 
 ```
 +---------------------------------------------------------------------------------+
@@ -177,19 +180,19 @@ caresetu/
 
 ---
 
-## 🔑 Pre-Seeded Demo Credentials for Evaluators
+## Pre-Seeded Demo Credentials for Evaluators
 
 You do not need to register or type passwords during hackathon presentation:
-- **Patient Demo:** Click **“👤 Try Demo Patient”** on the Landing or Login page  
+- **Patient Demo:** Click **“Try Demo Patient”** on the Landing or Login page  
   *User: Rahul Sharma (`rahul@caresetu.in`), 34 Years, Mild Hypertension*  
   *Child Profile: Aarav Sharma, 6 Years, Pediatric Growth & Vaccines*
-- **Doctor Demo:** Click **“🩺 Try Demo Doctor”** on the Login page  
+- **Doctor Demo:** Click **“ Try Demo Doctor”** on the Login page  
   *Doctor: Dr. Ananya Gupta (`dr.gupta@caresetu.in`), Cardiologist*
 - **Pre-Generated Doctor Access PIN:** `CARE-9281` (can be tested in the Doctor Portal tab)
 
 ---
 
-## ⚙️ Setup & Execution Instructions
+## Setup & Execution Instructions
 
 ### Prerequisites
 - Node.js LTS (v18+)
@@ -234,5 +237,5 @@ npm run dev
 
 ---
 
-## 🛡️ Medical Disclaimer
+## Medical Disclaimer
 CareSetu is an assistive personal health-record management application. It does not provide medical diagnoses, emergency care, or clinical prescriptions. Users should always consult a licensed medical doctor for health decisions.
