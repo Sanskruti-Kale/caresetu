@@ -1,4 +1,4 @@
-﻿# 🏥 CareSetu (केयर सेतु)
+﻿# 🏥 CareSetu 
 > **“Aapki Sehat, Aapki Kahani.”**  
 > *A personal health-record management platform that organizes scattered medical reports into a chronological, understandable health journey.*
 
